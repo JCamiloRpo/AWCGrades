@@ -1,0 +1,46 @@
+C:\Users\wilde\source\repos\AppMovil\AppMovil\bin\Debug\netstandard2.0\AppMovil.deps.json
+C:\Users\wilde\source\repos\AppMovil\AppMovil\bin\Debug\netstandard2.0\AppMovil.dll
+C:\Users\wilde\source\repos\AppMovil\AppMovil\obj\Debug\netstandard2.0\AppMovil.csprojAssemblyReference.cache
+C:\Users\wilde\source\repos\AppMovil\AppMovil\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\wilde\source\repos\AppMovil\AppMovil\obj\Debug\netstandard2.0\AppMovil.AssemblyInfoInputs.cache
+C:\Users\wilde\source\repos\AppMovil\AppMovil\obj\Debug\netstandard2.0\AppMovil.AssemblyInfo.cs
+C:\Users\wilde\source\repos\AppMovil\AppMovil\obj\Debug\netstandard2.0\Views\PageInicio.xaml.g.cs
+C:\Users\wilde\source\repos\AppMovil\AppMovil\obj\Debug\netstandard2.0\Views\PageMateria.xaml.g.cs
+C:\Users\wilde\source\repos\AppMovil\AppMovil\obj\Debug\netstandard2.0\Views\PageMateriaSemestre.xaml.g.cs
+C:\Users\wilde\source\repos\AppMovil\AppMovil\obj\Debug\netstandard2.0\Views\PageMenu.xaml.g.cs
+C:\Users\wilde\source\repos\AppMovil\AppMovil\obj\Debug\netstandard2.0\Views\PageNotasGenerales.xaml.g.cs
+C:\Users\wilde\source\repos\AppMovil\AppMovil\obj\Debug\netstandard2.0\Views\PageNotasMateria.xaml.g.cs
+C:\Users\wilde\source\repos\AppMovil\AppMovil\obj\Debug\netstandard2.0\Views\PagePerfil.xaml.g.cs
+C:\Users\wilde\source\repos\AppMovil\AppMovil\obj\Debug\netstandard2.0\Views\PagePlan.xaml.g.cs
+C:\Users\wilde\source\repos\AppMovil\AppMovil\obj\Debug\netstandard2.0\Views\PagePrincipal.xaml.g.cs
+C:\Users\wilde\source\repos\AppMovil\AppMovil\obj\Debug\netstandard2.0\Views\PageRegistrar.xaml.g.cs
+C:\Users\wilde\source\repos\AppMovil\AppMovil\obj\Debug\netstandard2.0\Views\PageSemestre.xaml.g.cs
+C:\Users\wilde\source\repos\AppMovil\AppMovil\obj\Debug\netstandard2.0\Views\PageSubirNota.xaml.g.cs
+C:\Users\wilde\source\repos\AppMovil\AppMovil\bin\Debug\netstandard2.0\AppMovil.pdb
+C:\Users\wilde\source\repos\AppMovil\AppMovil\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\wilde\source\repos\AppMovil\AppMovil\obj\Debug\netstandard2.0\AppMovil.dll
+C:\Users\wilde\source\repos\AppMovil\AppMovil\obj\Debug\netstandard2.0\AppMovil.pdb
+C:\Users\wilde\source\repos\AppMovil\AppMovil\obj\Debug\netstandard2.0\Views\PageMateriaEstudiante.xaml.g.cs
+D:\UPB\Sem_4\Ingenieria\Proyecto Final\AppMovil\AppMovil\AppMovil\bin\Debug\netstandard2.0\AppMovil.deps.json
+D:\UPB\Sem_4\Ingenieria\Proyecto Final\AppMovil\AppMovil\AppMovil\bin\Debug\netstandard2.0\AppMovil.dll
+D:\UPB\Sem_4\Ingenieria\Proyecto Final\AppMovil\AppMovil\AppMovil\bin\Debug\netstandard2.0\AppMovil.pdb
+D:\UPB\Sem_4\Ingenieria\Proyecto Final\AppMovil\AppMovil\AppMovil\obj\Debug\netstandard2.0\AppMovil.csprojAssemblyReference.cache
+D:\UPB\Sem_4\Ingenieria\Proyecto Final\AppMovil\AppMovil\AppMovil\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\UPB\Sem_4\Ingenieria\Proyecto Final\AppMovil\AppMovil\AppMovil\obj\Debug\netstandard2.0\Views\PageInicio.xaml.g.cs
+D:\UPB\Sem_4\Ingenieria\Proyecto Final\AppMovil\AppMovil\AppMovil\obj\Debug\netstandard2.0\Views\PageMateria.xaml.g.cs
+D:\UPB\Sem_4\Ingenieria\Proyecto Final\AppMovil\AppMovil\AppMovil\obj\Debug\netstandard2.0\Views\PageMateriaEstudiante.xaml.g.cs
+D:\UPB\Sem_4\Ingenieria\Proyecto Final\AppMovil\AppMovil\AppMovil\obj\Debug\netstandard2.0\Views\PageMateriaSemestre.xaml.g.cs
+D:\UPB\Sem_4\Ingenieria\Proyecto Final\AppMovil\AppMovil\AppMovil\obj\Debug\netstandard2.0\Views\PageMenu.xaml.g.cs
+D:\UPB\Sem_4\Ingenieria\Proyecto Final\AppMovil\AppMovil\AppMovil\obj\Debug\netstandard2.0\Views\PageNotasGenerales.xaml.g.cs
+D:\UPB\Sem_4\Ingenieria\Proyecto Final\AppMovil\AppMovil\AppMovil\obj\Debug\netstandard2.0\Views\PageNotasMateria.xaml.g.cs
+D:\UPB\Sem_4\Ingenieria\Proyecto Final\AppMovil\AppMovil\AppMovil\obj\Debug\netstandard2.0\Views\PagePerfil.xaml.g.cs
+D:\UPB\Sem_4\Ingenieria\Proyecto Final\AppMovil\AppMovil\AppMovil\obj\Debug\netstandard2.0\Views\PagePlan.xaml.g.cs
+D:\UPB\Sem_4\Ingenieria\Proyecto Final\AppMovil\AppMovil\AppMovil\obj\Debug\netstandard2.0\Views\PagePrincipal.xaml.g.cs
+D:\UPB\Sem_4\Ingenieria\Proyecto Final\AppMovil\AppMovil\AppMovil\obj\Debug\netstandard2.0\Views\PageRegistrar.xaml.g.cs
+D:\UPB\Sem_4\Ingenieria\Proyecto Final\AppMovil\AppMovil\AppMovil\obj\Debug\netstandard2.0\Views\PageSemestre.xaml.g.cs
+D:\UPB\Sem_4\Ingenieria\Proyecto Final\AppMovil\AppMovil\AppMovil\obj\Debug\netstandard2.0\Views\PageSubirNota.xaml.g.cs
+D:\UPB\Sem_4\Ingenieria\Proyecto Final\AppMovil\AppMovil\AppMovil\obj\Debug\netstandard2.0\AppMovil.AssemblyInfoInputs.cache
+D:\UPB\Sem_4\Ingenieria\Proyecto Final\AppMovil\AppMovil\AppMovil\obj\Debug\netstandard2.0\AppMovil.AssemblyInfo.cs
+D:\UPB\Sem_4\Ingenieria\Proyecto Final\AppMovil\AppMovil\AppMovil\obj\Debug\netstandard2.0\XamlC.stamp
+D:\UPB\Sem_4\Ingenieria\Proyecto Final\AppMovil\AppMovil\AppMovil\obj\Debug\netstandard2.0\AppMovil.dll
+D:\UPB\Sem_4\Ingenieria\Proyecto Final\AppMovil\AppMovil\AppMovil\obj\Debug\netstandard2.0\AppMovil.pdb

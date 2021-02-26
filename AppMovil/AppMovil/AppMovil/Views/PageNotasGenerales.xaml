@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMovil.Views.PageNotasGenerales">
+    <ContentPage.Content>
+        <Grid BackgroundColor="White">
+            <Image Source="fondo.png" Aspect="AspectFill"/>
+            <BoxView Color="Black" Opacity="0.8"/>
+            <Grid>
+                <StackLayout VerticalOptions="Center" Padding="20,20">
+                    <Entry x:Name="TxEstudiante"
+                            Placeholder="Estudiante" 
+                            PlaceholderColor="White"
+                            IsReadOnly="True"
+                            TextColor="White"/>
+                    <ListView x:Name="LtNotas"
+                              ItemSelected="LtNotas_ItemSelected">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ImageCell TextColor="White"
+                                           DetailColor="White" 
+                                           Text="{Binding Materia}"
+                                           Detail="{Binding NotaProm}">
+                                </ImageCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+            </Grid>
+            <StackLayout VerticalOptions="End">
+                <Image Source="logo.png" HeightRequest="100" WidthRequest="200" HorizontalOptions="EndAndExpand"/>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

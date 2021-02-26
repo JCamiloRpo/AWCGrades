@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMovil.PagePrincipal">
+    <Grid BackgroundColor="White">
+        <Image Source="fondo.png" Aspect="AspectFill"/>
+        <BoxView Color="Black" Opacity="0.8"/>
+        <StackLayout VerticalOptions="Start">
+            <Label x:Name="LbTitulo"
+                   Margin="0,20,0,0"
+                   FontSize="Large"
+                   TextColor="White"
+                   HorizontalTextAlignment="Center"/>
+        </StackLayout>
+        <StackLayout VerticalOptions="Center">
+            <Image x:Name="Image" HeightRequest="200" WidthRequest="200" HorizontalOptions="CenterAndExpand"/>
+        </StackLayout>
+        <StackLayout VerticalOptions="End">
+            <Image Source="logo.png" HeightRequest="100" WidthRequest="200" HorizontalOptions="EndAndExpand"/>
+        </StackLayout>
+    </Grid>
+</ContentPage>

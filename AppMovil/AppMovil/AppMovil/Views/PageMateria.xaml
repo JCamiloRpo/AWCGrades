@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMovil.Views.PageMateria">
+    <Grid >
+        <Image Source="fondo.png" Aspect="AspectFill"/>
+        <BoxView Color="Black" Opacity="0.8"/>
+        <Grid>
+            <StackLayout Padding="20,20">
+                <StackLayout VerticalOptions="Start" Padding="50,50">
+                    <Image Source="addsub.png" HeightRequest="100" WidthRequest="100" Margin="10,10" HorizontalOptions="CenterAndExpand"/>
+                </StackLayout>
+                <Entry x:Name="TxMateria"
+                        Placeholder="Nueva materia" 
+                        PlaceholderColor="White"
+                        TextColor="White"/>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <StackLayout Grid.Column="0">
+                        <Button x:Name="BtnEliminar"
+                            Text="Eliminar"
+                            BackgroundColor="#000000"
+                            BorderRadius="30"
+                            BorderWidth="1"
+                            BorderColor="#FFFFFF"
+                            TextColor="White"/>
+                    </StackLayout>
+                    <StackLayout Grid.Column="1">
+                        <Button x:Name="BtnCrear"
+                            Text="Crear"
+                            BackgroundColor="#FFFFFF"
+                            BorderRadius="30"
+                            BorderWidth="1"
+                            BorderColor="#000000"
+                            TextColor="Black"/>
+                    </StackLayout>
+                </Grid>
+            </StackLayout>
+            <StackLayout VerticalOptions="EndAndExpand">
+                <Image Source="logo.png" HeightRequest="100" WidthRequest="200" HorizontalOptions="EndAndExpand"/>
+            </StackLayout>
+        </Grid>
+    </Grid>
+</ContentPage>

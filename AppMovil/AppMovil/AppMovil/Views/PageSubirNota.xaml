@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMovil.Views.PageSubirNota">
+    <ContentPage.Content>
+        <Grid BackgroundColor="White">
+            <Image Source="fondo.png" Aspect="AspectFill"/>
+            <BoxView Color="Black" Opacity="0.8"/>
+            <Grid>
+                <StackLayout VerticalOptions="Start" Padding="50,50">
+                    <Image Source="addnote.png" HeightRequest="100" WidthRequest="100" Margin="10,10" HorizontalOptions="CenterAndExpand"/>
+                </StackLayout>
+                <StackLayout VerticalOptions="Center" Padding="20,20">
+                    <Picker x:Name="PkSemestre"
+                            Title="Semestre"
+                            TextColor="White"
+                            TitleColor="White"/>
+                    <Picker x:Name="PkEstudiante"
+                            Title="Estudiante"
+                            TextColor="White"
+                            TitleColor="White"/>
+                    <Picker x:Name="PkIdMateria"
+                            Title="Materia con semestre"
+                            TextColor="White"
+                            TitleColor="White"/>
+                    <Picker x:Name="PkIdPlan"
+                            Title="Plan de la materia"
+                            TextColor="White"
+                            TitleColor="White"/>
+                    <Entry x:Name="TxNota"
+                            Placeholder="Nota" 
+                            PlaceholderColor="White"
+                            TextColor="White"/>
+                    <Button x:Name="BtnSubir"
+                            Text="Subir"
+                            BackgroundColor="#FFFFFF"
+                            BorderRadius="30"
+                            BorderWidth="1"
+                            BorderColor="#000000"
+                            TextColor="Black"/>
+                </StackLayout>
+                <StackLayout VerticalOptions="EndAndExpand">
+                    <Image Source="logo.png" HeightRequest="100" WidthRequest="200" HorizontalOptions="EndAndExpand"/>
+                </StackLayout>
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

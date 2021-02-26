@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMovil.PageRegistrar">
+    <ContentPage.Content>
+        <Grid BackgroundColor="White">
+            <Image Source="fondo.png" Aspect="AspectFill"/>
+            <BoxView Color="Black" Opacity="0.8"/>
+            <Grid>
+                <StackLayout VerticalOptions="Start" Padding="50,50">
+                    <Image Source="adduser.png" HeightRequest="100" WidthRequest="100" Margin="10,10" HorizontalOptions="CenterAndExpand"/>
+                </StackLayout>
+                <StackLayout VerticalOptions="Center" Padding="20,20">
+                    <Entry x:Name="TxUsuario"
+                        Placeholder="Usuario" 
+                        PlaceholderColor="White"
+                        TextColor="White"/>
+                    <Entry x:Name="TxContraseña"
+                        Placeholder="Contraseña"
+                        PlaceholderColor="White"
+                        TextColor="White"
+                        IsPassword="True"/>
+                    <Picker x:Name="PkTipoUser"
+                        Title="Tipo de usuario"
+                        TextColor="White"
+                        TitleColor="White"/>
+                    <Button x:Name="BtnAceptar"
+                        Text="Aceptar"
+                        BackgroundColor="#FFFFFF"
+                        BorderRadius="30"
+                        BorderWidth="1"
+                        BorderColor="#000000"
+                        TextColor="Black"/>
+                </StackLayout>
+                <StackLayout VerticalOptions="EndAndExpand">
+                    <Image Source="logo.png" HeightRequest="100" WidthRequest="200" HorizontalOptions="EndAndExpand"/>
+                </StackLayout>
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMovil.Views.PageNotasMateria">
+    <ContentPage.Content>
+        <Grid BackgroundColor="White">
+            <Image Source="fondo.png" Aspect="AspectFill"/>
+            <BoxView Color="Black" Opacity="0.8"/>
+            <Grid>
+                <StackLayout VerticalOptions="Center" Padding="20,20">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <StackLayout Grid.Column="0">
+                            <Entry x:Name="TxEstudiante"
+                                Placeholder="Estudiante" 
+                                PlaceholderColor="White"
+                                TextColor="White"
+                                HorizontalOptions="StartAndExpand"
+                                IsReadOnly="True"/>
+                        </StackLayout>
+                        <StackLayout Grid.Column="1">
+                            <Entry x:Name="TxMateria"
+                                Placeholder="Materia" 
+                                PlaceholderColor="White"
+                                TextColor="White"
+                                HorizontalOptions="EndAndExpand"
+                                IsReadOnly="True"/>
+                        </StackLayout>
+                    </Grid>
+                    <ListView x:Name="LtNotas">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ImageCell TextColor="White"
+                                           DetailColor="White" 
+                                           Text="{Binding Descripcion}">
+                                </ImageCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+            </Grid>
+            <StackLayout VerticalOptions="End">
+                <Image Source="logo.png" HeightRequest="100" WidthRequest="200" HorizontalOptions="EndAndExpand"/>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
